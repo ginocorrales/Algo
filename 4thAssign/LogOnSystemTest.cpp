@@ -2,7 +2,7 @@
 Author: Gino P. Corrales-Delgado
 IT 279 - Assign 4
 
-This file will test the Person Class, calling all its functions and even trying the overload operator '==". 
+This file will test the Person Class, calling all its functions and even trying the overload operator '==".
 I am attaching also the Makefile to help comple and run this program.
 */
 
@@ -17,16 +17,19 @@ int main()
   Person p4("Mary Alice","Ditsworth");
   Person p5("Marge","Worten");
   Person p6("John Allan","Smith");
-  
-  //here is testing and printing the full names of the persons in the normal form 				 
+	Person p7("Gino","Corrales");
+
+  //here is testing and printing the full names of the persons in the normal form
   cout<<"***************************"<<endl;
   cout<<"First person's full name:  " << p1.GetFullName() <<endl;
 	cout<<"Second person's full name: "<< p2.GetFullName() <<endl;
 	cout<<"Third person's full name:  " << p3.GetFullName() <<endl;
 	cout<<"Fourth person's full name: "<< p4.GetFullName() <<endl;
 	cout<<"Fifth person's full name:  " << p5.GetFullName() <<endl;
-  
-  //here is testing and to printing the full names of the persons in the list form				 
+	cout<<"Sixth person's full name: "<< p6.GetFullName() <<endl;
+	cout<<"Seventh person's full name:  " << p7.GetFullName() <<endl;
+
+  //here is testing and to printing the full names of the persons in the list form
   cout<<"***************************"<<endl;
   cout<<"List of Names:"  << endl;
   cout<< p1.GetListName() << endl;
@@ -59,7 +62,7 @@ int main()
   if(p1==p2)
 		cout<<"The First and the Second Person are the same person" <<endl;
   else
-    cout<<"The First and the Second Person are NOT the same person" <<endl; 
+    cout<<"The First and the Second Person are NOT the same person" <<endl;
   if(p1==p6)
 		cout<<"The First and the Sixth Person are the same person" <<endl;
   else
@@ -68,5 +71,3 @@ int main()
 
   return 0;
 }
-
-
