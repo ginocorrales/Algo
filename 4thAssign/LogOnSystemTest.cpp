@@ -19,6 +19,8 @@ int main()
   Person p6("John Allan","Smith");
 	Person p7("Gino","Corrales");
 	Person p7("Luka","Denofrio");
+	Person p8("Leo","Corrales");
+
 
   //here is testing and printing the full names of the persons in the normal form
   cout<<"***************************"<<endl;
